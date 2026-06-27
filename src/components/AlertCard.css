@@ -1,0 +1,49 @@
+/* ==========================
+   Alert Card
+========================== */
+
+.alert-card{
+
+    padding:16px 20px;
+
+    margin-bottom:12px;
+
+    border-radius:12px;
+
+    color:white;
+
+    font-weight:500;
+
+    box-shadow:var(--shadow-sm);
+
+    transition:.3s;
+
+}
+
+.alert-card:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* ==========================
+   Alert Types
+========================== */
+
+.success{
+
+    background:#22c55e;
+
+}
+
+.warning{
+
+    background:#f59e0b;
+
+}
+
+.danger{
+
+    background:#ef4444;
+
+}

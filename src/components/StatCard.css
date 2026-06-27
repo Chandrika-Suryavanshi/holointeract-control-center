@@ -1,0 +1,70 @@
+/* ==========================
+   Stat Card
+========================== */
+
+.stat-card{
+
+    background:var(--surface-color);
+
+    border:1px solid var(--border-color);
+
+    border-radius:16px;
+
+    padding:22px;
+
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+    box-shadow:var(--shadow-sm);
+
+    transition:.3s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* ==========================
+   Icon
+========================== */
+
+.stat-icon{
+
+    width:60px;
+    height:60px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:14px;
+
+    color:white;
+
+    font-size:24px;
+
+}
+
+/* ==========================
+   Text
+========================== */
+
+.stat-card p{
+
+    color:var(--text-secondary);
+
+    margin-bottom:5px;
+
+}
+
+.stat-card h2{
+
+    font-size:28px;
+
+    color:var(--text-primary);
+
+}

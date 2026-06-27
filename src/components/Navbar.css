@@ -1,0 +1,161 @@
+/* ==========================
+   Navbar
+========================== */
+
+.navbar{
+    height:80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 32px;
+
+    background:var(--surface-color);
+
+    border-bottom:1px solid var(--border-color);
+
+    transition:.3s;
+}
+
+/* ==========================
+   Title
+========================== */
+
+.page-title{
+    font-size:28px;
+    color:var(--text-primary);
+}
+
+/* ==========================
+   Right Section
+========================== */
+
+.navbar-right{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+/* ==========================
+   Search Box
+========================== */
+
+.search-box{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    width:280px;
+
+    padding:10px 16px;
+
+    background:var(--surface-color);
+
+    border:1px solid var(--border-color);
+
+    border-radius:12px;
+
+    transition:.3s;
+}
+
+.search-box svg{
+    color:var(--text-secondary);
+}
+
+.search-box input{
+    width:100%;
+
+    border:none;
+    outline:none;
+
+    background:transparent;
+
+    font-size:15px;
+
+    color:var(--text-primary);
+
+    caret-color:var(--primary-color);
+}
+
+.search-box input::placeholder{
+    color:var(--text-secondary);
+}
+
+/* ==========================
+   Icon Buttons
+========================== */
+
+.nav-icon{
+
+    width:42px;
+    height:42px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    background:var(--background-color);
+
+    color:var(--text-primary);
+
+    transition:.3s;
+
+}
+
+.nav-icon:hover{
+
+    background:var(--surface-hover);
+
+}
+
+/* ==========================
+   Profile
+========================== */
+
+.profile{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+}
+
+.profile-icon{
+
+    width:45px;
+    height:45px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+
+    background:var(--primary-color);
+
+    color:white;
+
+}
+
+.profile h4{
+
+    color:var(--text-primary);
+
+    font-size:15px;
+
+}
+
+.profile p{
+
+    font-size:13px;
+
+    color:var(--text-secondary);
+
+}

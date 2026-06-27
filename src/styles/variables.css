@@ -1,0 +1,41 @@
+:root{
+
+    --primary-color:#2563eb;
+
+    --background-color:#f8fafc;
+
+    --surface-color:#ffffff;
+
+    --surface-hover:#f1f5f9;
+
+    --text-primary:#0f172a;
+
+    --text-secondary:#64748b;
+
+    --border-color:#e2e8f0;
+
+    --shadow-sm:0 8px 24px rgba(15,23,42,.08);
+
+}
+
+/* DARK THEME */
+
+body[data-theme="dark"]{
+
+    --primary-color:#3b82f6;
+
+    --background-color:#0f172a;
+
+    --surface-color:#1e293b;
+
+    --surface-hover:#334155;
+
+    --text-primary:#f8fafc;
+
+    --text-secondary:#cbd5e1;
+
+    --border-color:#475569;
+
+    --shadow-sm:0 8px 24px rgba(0,0,0,.45);
+
+}

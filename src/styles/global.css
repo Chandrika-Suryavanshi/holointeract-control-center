@@ -1,0 +1,76 @@
+/* ===========================
+   Reset
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+    width:100%;
+    min-height:100%;
+}
+
+/* ===========================
+   Body
+=========================== */
+
+body{
+    font-family:"Poppins",sans-serif;
+
+    background:var(--background-color);
+    color:var(--text-primary);
+
+    overflow-x:hidden;
+}
+
+/* ===========================
+   Typography
+=========================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color:var(--text-primary);
+    font-weight:600;
+}
+
+p{
+    color:var(--text-secondary);
+    line-height:1.6;
+}
+
+/* ===========================
+   Links
+=========================== */
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+button{
+    border:none;
+    cursor:pointer;
+    font-family:inherit;
+}
+
+/* ===========================
+   Images
+=========================== */
+
+img{
+    display:block;
+    max-width:100%;
+}
