@@ -1,16 +1,159 @@
-# React + Vite
+# HoloInteract Control Center
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based dashboard designed for managing holographic devices, monitoring analytics, and controlling system operations through an intuitive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+https://holointeract-control-center.netlify.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## GitHub Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://github.com/Chandrika-Suryavanshi/holointeract-control-center
+
+---
+
+## Features
+
+- Secure Admin Login
+- Dashboard Overview
+- Analytics Dashboard
+- Device Monitoring
+- Campaign Performance
+- Dark / Light Theme
+- Responsive UI
+- Protected Routes
+- Logout Functionality
+- Interactive Charts
+
+---
+
+## Technologies Used
+
+### Frontend
+
+- React.js
+- React Router DOM
+- Vite
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+### Charts
+
+- Chart.js
+- React ChartJS 2
+
+### Icons
+
+- React Icons
+
+### Deployment
+
+- GitHub
+- Netlify
+
+---
+
+## Project Structure
+
+```
+src
+│
+├── assets
+├── components
+├── context
+├── data
+├── pages
+├── routes
+├── styles
+│
+├── App.jsx
+├── main.jsx
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Chandrika-Suryavanshi/holointeract-control-center.git
+```
+
+Go to project directory
+
+```bash
+cd holointeract-control-center
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## Admin Login
+
+Email
+
+```
+admin@holointeract.com
+```
+
+Password
+
+```
+Admin@123
+```
+
+---
+
+## Available Pages
+
+- Login
+- Dashboard
+- Analytics
+
+---
+
+## Future Improvements
+
+- Backend Authentication
+- Database Integration
+- Real-time Device Monitoring
+- User Management
+- Notification System
+- API Integration
+
+---
+
+## Author
+
+**Chandrika Suryavanshi**
+
+B.Tech Computer Science Engineering
+
+Jabalpur Engineering College
+
+GitHub
+
+https://github.com/Chandrika-Suryavanshi
